@@ -1,0 +1,23 @@
+{
+  "name": "node-rhymebrain",
+  "version": "0.0.0",
+  "description": "node.js interface to rhymebrain",
+  "main": "index.js",
+  "scripts": {
+    "test": "for %f in (tests/*.js) do node \"tests/%f\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adambarker/node-rhymebrain"
+  },
+  "keywords": [
+    "npm",
+    "module"
+  ],
+  "author": "Adam Barker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adambarker/node-rhymebrain/issues"
+  },
+  "homepage": "https://github.com/adambarker/node-rhymebrain"
+}
