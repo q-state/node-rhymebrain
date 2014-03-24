@@ -5,6 +5,7 @@ node js interface to rhymebrain.com
 
 Usage:
 
+<code>
 var rb = require("node-rhymebrain");
 
 rb.getRhymes('train', 10)
@@ -12,3 +13,4 @@ rb.getRhymes('train', 10)
     // do something with the data
   })
   .done();
+</code>
