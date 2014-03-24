@@ -1,9 +1,9 @@
 describe("A suite", function() {
-  it("contains spec with an expectation", function() {
+  it("just checking that true is true", function() {
     expect(true).toBe(true);
   });
 
-  it("contains spec with an expectation", function() {
+  it("is two equal two? lets find out...", function() {
     expect(2).toBe(2);
   });  
 });

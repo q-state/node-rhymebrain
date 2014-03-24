@@ -3,12 +3,15 @@
   "version": "0.0.0",
   "description": "node.js interface to rhymebrain",
   "main": "index.js",
+  "devDependencies": {
+    "jasmine-node" : "latest"
+  },
   "scripts": {
-    "test": "for %f in (tests/*.js) do node \"tests/%f\""
+    "test": "jasmine-node spec --color --verbose"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adambarker/node-rhymebrain"
+    "url": "https://github.com/q-state/node-rhymebrain"
   },
   "keywords": [
     "npm",
@@ -17,7 +20,7 @@
   "author": "Adam Barker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adambarker/node-rhymebrain/issues"
+    "url": "https://github.com/q-state/node-rhymebrain/issues"
   },
-  "homepage": "https://github.com/adambarker/node-rhymebrain"
+  "homepage": "https://github.com/q-state/node-rhymebrain"
 }
