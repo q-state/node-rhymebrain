@@ -4,7 +4,8 @@
   "description": "node.js interface to rhymebrain",
   "main": "index.js",
   "devDependencies": {
-    "jasmine-node" : "latest"
+    "jasmine-node": "latest",
+    "jasmine-as-promised": "0.0.8"
   },
   "scripts": {
     "test": "jasmine-node spec --color --verbose"
