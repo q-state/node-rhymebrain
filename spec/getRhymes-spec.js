@@ -1,6 +1,8 @@
 describe("tests for getRhymes", function() {
 
-    var rbModule = require('../lib/index.js');
+    var rbModule = require('../lib/index');
+
+    console.log('rbM is ', rbModule);
 
     it("returns some data", function(done) {
         return rbModule.getRhymes('train')
