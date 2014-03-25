@@ -13,7 +13,7 @@ describe("tests for getRhymes", function() {
     });
 
     it("returns 10 records", function(done) {
-        return rbModule.getRhymes('train', 10)
+        return rbModule.getRhymes('train', 0, 10)
             .then(function (d) {
                 expect(d.length).toBe(10);
                 done();
@@ -21,7 +21,7 @@ describe("tests for getRhymes", function() {
     });
 
     it("returns 3 syllable words", function(done) {
-        return rbModule.getRhymes('train', null, 3)
+        return rbModule.getRhymes('train', 3)
             .then(function (d) {
                 expect(d.length).toBeGreaterThan(0);
 
