@@ -2,7 +2,7 @@
   "name": "node-rhymebrain",
   "version": "0.0.1",
   "description": "node.js interface to rhymebrain",
-  "main": "index.js",
+  "main": "lib/index.js",
   "devDependencies": {
     "jasmine-node": "latest"
   },
@@ -23,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/q-state/node-rhymebrain/issues"
   },
-  "homepage": "https://github.com/q-state/node-rhymebrain"
+  "homepage": "https://github.com/q-state/node-rhymebrain",
+  "dependencies": {
+    "node-jpath": "~2.1.0",
+    "url": "~0.7.9",
+    "request": "~2.34.0",
+    "q": "~1.0.1"
+  }
 }
