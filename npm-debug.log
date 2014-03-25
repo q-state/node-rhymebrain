@@ -1,172 +1,128 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'adduser' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
 2 info using npm@1.4.3
 3 info using node@v0.10.26
-4 verbose adduser before first PUT { name: 'q-state',
-4 verbose adduser   salt: 'XXXXX',
-4 verbose adduser   password_sha: 'XXXXX',
-4 verbose adduser   email: 'npm@q-state.co.uk',
-4 verbose adduser   _id: 'org.couchdb.user:q-state',
-4 verbose adduser   type: 'user',
-4 verbose adduser   roles: [],
-4 verbose adduser   date: '2014-03-25T13:02:36.499Z' }
-5 verbose url raw /-/user/org.couchdb.user:q-state
-6 verbose url resolving [ 'https://registry.npmjs.org/',
-6 verbose url resolving   './-/user/org.couchdb.user:q-state' ]
-7 verbose url resolved https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-8 info trying registry request attempt 1 at 13:02:36
-9 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-10 http 503 https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-11 verbose bad json <?xml version="1.0" encoding="utf-8"?>
-11 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-11 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-11 verbose bad json <html>
-11 verbose bad json   <head>
-11 verbose bad json     <title>503 Backend is unhealthy</title>
-11 verbose bad json   </head>
-11 verbose bad json   <body>
-11 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
-11 verbose bad json     <p>Backend is unhealthy</p>
-11 verbose bad json     <h3>Guru Meditation:</h3>
-11 verbose bad json     <p>XID: 784315137</p>
-11 verbose bad json     <hr>
-11 verbose bad json     <p>Varnish cache server</p>
-11 verbose bad json   </body>
-11 verbose bad json </html>
-12 error registry error parsing json
-13 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
-13 info retry
-13 info retry <?xml version="1.0" encoding="utf-8"?>
-13 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-13 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-13 info retry <html>
-13 info retry   <head>
-13 info retry     <title>503 Backend is unhealthy</title>
-13 info retry   </head>
-13 info retry   <body>
-13 info retry     <h1>Error 503 Backend is unhealthy</h1>
-13 info retry     <p>Backend is unhealthy</p>
-13 info retry     <h3>Guru Meditation:</h3>
-13 info retry     <p>XID: 784315137</p>
-13 info retry     <hr>
-13 info retry     <p>Varnish cache server</p>
-13 info retry   </body>
-13 info retry </html>
-14 info trying registry request attempt 2 at 13:02:47
-15 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-16 http 503 https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-17 verbose bad json <?xml version="1.0" encoding="utf-8"?>
-17 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-17 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-17 verbose bad json <html>
-17 verbose bad json   <head>
-17 verbose bad json     <title>503 Backend is unhealthy</title>
-17 verbose bad json   </head>
-17 verbose bad json   <body>
-17 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
-17 verbose bad json     <p>Backend is unhealthy</p>
-17 verbose bad json     <h3>Guru Meditation:</h3>
-17 verbose bad json     <p>XID: 185296918</p>
-17 verbose bad json     <hr>
-17 verbose bad json     <p>Varnish cache server</p>
-17 verbose bad json   </body>
-17 verbose bad json </html>
-18 error registry error parsing json
-19 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
-19 info retry
-19 info retry <?xml version="1.0" encoding="utf-8"?>
-19 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-19 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-19 info retry <html>
-19 info retry   <head>
-19 info retry     <title>503 Backend is unhealthy</title>
-19 info retry   </head>
-19 info retry   <body>
-19 info retry     <h1>Error 503 Backend is unhealthy</h1>
-19 info retry     <p>Backend is unhealthy</p>
-19 info retry     <h3>Guru Meditation:</h3>
-19 info retry     <p>XID: 185296918</p>
-19 info retry     <hr>
-19 info retry     <p>Varnish cache server</p>
-19 info retry   </body>
-19 info retry </html>
-20 info trying registry request attempt 3 at 13:03:49
-21 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-22 http 503 https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-23 verbose bad json <?xml version="1.0" encoding="utf-8"?>
-23 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-23 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-23 verbose bad json <html>
-23 verbose bad json   <head>
-23 verbose bad json     <title>503 Backend is unhealthy</title>
-23 verbose bad json   </head>
-23 verbose bad json   <body>
-23 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
-23 verbose bad json     <p>Backend is unhealthy</p>
-23 verbose bad json     <h3>Guru Meditation:</h3>
-23 verbose bad json     <p>XID: 784459170</p>
-23 verbose bad json     <hr>
-23 verbose bad json     <p>Varnish cache server</p>
-23 verbose bad json   </body>
-23 verbose bad json </html>
-24 error registry error parsing json
-25 verbose adduser back [ [SyntaxError: Unexpected token <
-25 verbose adduser
-25 verbose adduser   <?xml version="1.0" encoding="utf-8"?>
-25 verbose adduser   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-25 verbose adduser    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-25 verbose adduser   <html>
-25 verbose adduser     <head>
-25 verbose adduser       <title>503 Backend is unhealthy</title>
-25 verbose adduser     </head>
-25 verbose adduser     <body>
-25 verbose adduser       <h1>Error 503 Backend is unhealthy</h1>
-25 verbose adduser       <p>Backend is unhealthy</p>
-25 verbose adduser       <h3>Guru Meditation:</h3>
-25 verbose adduser       <p>XID: 784459170</p>
-25 verbose adduser       <hr>
-25 verbose adduser       <p>Varnish cache server</p>
-25 verbose adduser     </body>
-25 verbose adduser   </html>
-25 verbose adduser   ],
-25 verbose adduser   null,
-25 verbose adduser   '\n<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"\n "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html>\n  <head>\n    <title>503 Backend is unhealthy</title>\n  </head>\n  <body>\n    <h1>Error 503 Backend is unhealthy</h1>\n    <p>Backend is unhealthy</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 784459170</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n' ]
-26 error SyntaxError: Unexpected token <
-26 error
-26 error <?xml version="1.0" encoding="utf-8"?>
-26 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-26 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-26 error <html>
-26 error   <head>
-26 error     <title>503 Backend is unhealthy</title>
-26 error   </head>
-26 error   <body>
-26 error     <h1>Error 503 Backend is unhealthy</h1>
-26 error     <p>Backend is unhealthy</p>
-26 error     <h3>Guru Meditation:</h3>
-26 error     <p>XID: 784459170</p>
-26 error     <hr>
-26 error     <p>Varnish cache server</p>
-26 error   </body>
-26 error </html>
-26 error
-26 error     at Object.parse (native)
-26 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:203:23)
-26 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
-26 error     at Request.EventEmitter.emit (events.js:98:17)
-26 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
-26 error     at Request.EventEmitter.emit (events.js:117:20)
-26 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
-26 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
-26 error     at _stream_readable.js:920:16
-26 error     at process._tickCallback (node.js:415:13)
-27 error If you need help, you may report this *entire* log,
-27 error including the npm and node versions, at:
-27 error     <http://github.com/npm/npm/issues>
-28 error System Darwin 13.1.0
-29 error command "node" "/usr/local/bin/npm" "adduser"
-30 error cwd /Users/Adam/Documents/Node/node-rhymebrain
-31 error node -v v0.10.26
-32 error npm -v 1.4.3
-33 error type unexpected_token
-34 verbose exit [ 1, true ]
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/Adam/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+12 verbose folder .
+13 info prepublish node-rhymebrain@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/Adam/.npm/1f1177db-tar.lock
+16 silly lockFile 4572c7de-69535-0-6888327815104276-tmp-tgz tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+17 verbose lock tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz /Users/Adam/.npm/4572c7de-69535-0-6888327815104276-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 4572c7de-69535-0-6888327815104276-tmp-tgz tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+21 silly lockFile 4572c7de-69535-0-6888327815104276-tmp-tgz tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+22 verbose tar unpack /Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+23 silly lockFile 8935a1cb-69535-0-6888327815104276-package tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package
+24 verbose lock tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package /Users/Adam/.npm/8935a1cb-69535-0-6888327815104276-package.lock
+25 silly lockFile 4572c7de-69535-0-6888327815104276-tmp-tgz tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+26 verbose lock tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz /Users/Adam/.npm/4572c7de-69535-0-6888327815104276-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry .idea/.name
+31 silly gunzTarPerm extractEntry .idea/dictionaries/Adam.xml
+32 silly gunzTarPerm extractEntry .idea/encodings.xml
+33 silly gunzTarPerm extractEntry .idea/misc.xml
+34 silly gunzTarPerm extractEntry .idea/modules.xml
+35 silly gunzTarPerm extractEntry .idea/node-rhymebrain.iml
+36 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+37 silly gunzTarPerm extractEntry .idea/vcs.xml
+38 silly gunzTarPerm extractEntry .idea/workspace.xml
+39 silly gunzTarPerm extractEntry lib/index.js
+40 silly gunzTarPerm extractEntry spec/getRhymes-spec.js
+41 silly lockFile 8935a1cb-69535-0-6888327815104276-package tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package
+42 silly lockFile 8935a1cb-69535-0-6888327815104276-package tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package
+43 silly lockFile 4572c7de-69535-0-6888327815104276-tmp-tgz tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+44 silly lockFile 4572c7de-69535-0-6888327815104276-tmp-tgz tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/tmp.tgz
+45 verbose tar pack [ '/Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz',
+45 verbose tar pack   '/Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package' ]
+46 verbose tarball /Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+47 verbose folder /Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package
+48 silly lockFile 8935a1cb-69535-0-6888327815104276-package tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package
+49 verbose lock tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package /Users/Adam/.npm/8935a1cb-69535-0-6888327815104276-package.lock
+50 silly lockFile b880e549-ode-rhymebrain-0-0-0-package-tgz tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+51 verbose lock tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz /Users/Adam/.npm/b880e549-ode-rhymebrain-0-0-0-package-tgz.lock
+52 silly lockFile 8935a1cb-69535-0-6888327815104276-package tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package
+53 silly lockFile 8935a1cb-69535-0-6888327815104276-package tar:///Users/Adam/tmp/npm-9130-BRCMdn4w/1395752669535-0.6888327815104276/package
+54 silly lockFile b880e549-ode-rhymebrain-0-0-0-package-tgz tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+55 silly lockFile b880e549-ode-rhymebrain-0-0-0-package-tgz tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+56 silly lockFile cdfff3a9-pm-node-rhymebrain-0-0-0-package /Users/Adam/.npm/node-rhymebrain/0.0.0/package
+57 verbose lock /Users/Adam/.npm/node-rhymebrain/0.0.0/package /Users/Adam/.npm/cdfff3a9-pm-node-rhymebrain-0-0-0-package.lock
+58 silly lockFile cdfff3a9-pm-node-rhymebrain-0-0-0-package /Users/Adam/.npm/node-rhymebrain/0.0.0/package
+59 silly lockFile cdfff3a9-pm-node-rhymebrain-0-0-0-package /Users/Adam/.npm/node-rhymebrain/0.0.0/package
+60 verbose tar unpack /Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+61 silly lockFile 9e3a2396-pm-node-rhymebrain-0-0-0-package tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package
+62 verbose lock tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package /Users/Adam/.npm/9e3a2396-pm-node-rhymebrain-0-0-0-package.lock
+63 silly lockFile b880e549-ode-rhymebrain-0-0-0-package-tgz tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+64 verbose lock tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz /Users/Adam/.npm/b880e549-ode-rhymebrain-0-0-0-package-tgz.lock
+65 silly gunzTarPerm modes [ '755', '644' ]
+66 silly gunzTarPerm extractEntry package.json
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm extractEntry .idea/.name
+69 silly gunzTarPerm extractEntry .idea/dictionaries/Adam.xml
+70 silly gunzTarPerm extractEntry .idea/encodings.xml
+71 silly gunzTarPerm extractEntry .idea/misc.xml
+72 silly gunzTarPerm extractEntry .idea/modules.xml
+73 silly gunzTarPerm extractEntry .idea/node-rhymebrain.iml
+74 silly gunzTarPerm extractEntry .idea/scopes/scope_settings.xml
+75 silly gunzTarPerm extractEntry .idea/vcs.xml
+76 silly gunzTarPerm extractEntry .idea/workspace.xml
+77 silly gunzTarPerm extractEntry lib/index.js
+78 silly gunzTarPerm extractEntry spec/getRhymes-spec.js
+79 silly lockFile 9e3a2396-pm-node-rhymebrain-0-0-0-package tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package
+80 silly lockFile 9e3a2396-pm-node-rhymebrain-0-0-0-package tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package
+81 silly lockFile b880e549-ode-rhymebrain-0-0-0-package-tgz tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+82 silly lockFile b880e549-ode-rhymebrain-0-0-0-package-tgz tar:///Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz
+83 verbose chmod /Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz 644
+84 verbose chown /Users/Adam/.npm/node-rhymebrain/0.0.0/package.tgz [ 501, 20 ]
+85 silly lockFile 3a52ce78- .
+86 silly lockFile 3a52ce78- .
+87 silly publish { name: 'node-rhymebrain',
+87 silly publish   version: '0.0.0',
+87 silly publish   description: 'node.js interface to rhymebrain',
+87 silly publish   main: 'index.js',
+87 silly publish   devDependencies: { 'jasmine-node': 'latest' },
+87 silly publish   scripts: { test: 'jasmine-node spec --color --verbose' },
+87 silly publish   repository:
+87 silly publish    { type: 'git',
+87 silly publish      url: 'https://github.com/q-state/node-rhymebrain' },
+87 silly publish   keywords: [ 'npm', 'module' ],
+87 silly publish   author: { name: 'Adam Barker' },
+87 silly publish   license: 'MIT',
+87 silly publish   bugs: { url: 'https://github.com/q-state/node-rhymebrain/issues' },
+87 silly publish   homepage: 'https://github.com/q-state/node-rhymebrain',
+87 silly publish   readme: 'node-rhymebrain\n===============\n\nnode js interface to rhymebrain.com\n\nUsage:\n\n<pre><code>var rb = require("node-rhymebrain");\n\nrb\n  .getRhymes(\'train\', 10)\n  .then(function (result) {\n    // do something with the data\n  })\n  .done();\n</code></pre>\n',
+87 silly publish   readmeFilename: 'README.md',
+87 silly publish   _id: 'node-rhymebrain@0.0.0',
+87 silly publish   dist: { shasum: '1d0849cad2787004feccb8c14851f2399c40ac91' },
+87 silly publish   _from: '.' }
+88 error need auth auth and email required for publishing
+88 error need auth You need to authorize this machine using `npm adduser`
+89 error System Darwin 13.1.0
+90 error command "node" "/usr/local/bin/npm" "publish"
+91 error cwd /Users/Adam/Documents/Node/node-rhymebrain
+92 error node -v v0.10.26
+93 error npm -v 1.4.3
+94 error code ENEEDAUTH
+95 verbose exit [ 1, true ]
