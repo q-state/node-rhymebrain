@@ -1,67 +1,148 @@
 0 info it worked if it ends with ok
 1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
-1 verbose cli   'owner',
-1 verbose cli   'add',
-1 verbose cli   'q-state' ]
-2 info using npm@1.3.24
-3 info using node@v0.10.25
-4 verbose owner add q-state to node-rhymebrain
-5 verbose url raw /-/user/org.couchdb.user:q-state
-6 verbose url resolving [ 'https://registry.npmjs.org/',
-6 verbose url resolving   './-/user/org.couchdb.user:q-state' ]
-7 verbose url resolved https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-8 info trying registry request attempt 1 at 14:18:17
-9 http GET https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-10 http 200 https://registry.npmjs.org/-/user/org.couchdb.user:q-state
-11 silly registry.get cb [ 200,
-11 silly registry.get   { date: 'Tue, 25 Mar 2014 14:18:17 GMT',
-11 silly registry.get     server: 'CouchDB/1.6.0+build.fauxton-91-g5a2864b (Erlang OTP/R14B04)',
-11 silly registry.get     etag: '"3-6fed365cd4f2949ef11485a22061185b"',
-11 silly registry.get     'content-type': 'application/json',
-11 silly registry.get     'accept-ranges': 'bytes',
-11 silly registry.get     via: '1.1 varnish',
-11 silly registry.get     'cache-control': 'max-age=1',
-11 silly registry.get     'content-length': '1082',
-11 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-lcy1127-LCY',
-11 silly registry.get     'x-cache': 'MISS, MISS',
-11 silly registry.get     'x-cache-hits': '0, 0',
-11 silly registry.get     'x-timer': 'S1395757097.318252087,VS0,VS-681,VE-585,VE180',
-11 silly registry.get     'keep-alive': 'timeout=10, max=50',
-11 silly registry.get     connection: 'Keep-Alive' } ]
-12 verbose url raw node-rhymebrain
-13 verbose url resolving [ 'https://registry.npmjs.org/', './node-rhymebrain' ]
-14 verbose url resolved https://registry.npmjs.org/node-rhymebrain
-15 info trying registry request attempt 1 at 14:18:17
-16 http GET https://registry.npmjs.org/node-rhymebrain
-17 http 404 https://registry.npmjs.org/node-rhymebrain
-18 silly registry.get cb [ 404,
-18 silly registry.get   { date: 'Tue, 25 Mar 2014 14:18:17 GMT',
-18 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
-18 silly registry.get     'content-type': 'application/json',
-18 silly registry.get     via: '1.1 varnish',
-18 silly registry.get     'cache-control': 'max-age=0',
-18 silly registry.get     'content-length': '52',
-18 silly registry.get     'accept-ranges': 'bytes',
-18 silly registry.get     age: '0',
-18 silly registry.get     'x-served-by': 'cache-v44-ASH, cache-lcy1122-LCY',
-18 silly registry.get     'x-cache': 'MISS, MISS',
-18 silly registry.get     'x-cache-hits': '0, 0',
-18 silly registry.get     'x-timer': 'S1395757097.573450804,VS0,VS-681,VE-596,VE162',
-18 silly registry.get     'keep-alive': 'timeout=10, max=50',
-18 silly registry.get     connection: 'Keep-Alive' } ]
-19 error owner mutate Error getting package data for node-rhymebrain
-20 error 404 'node-rhymebrain' is not in the npm registry.
-20 error 404 You should bug the author to publish it
-20 error 404
-20 error 404 Maybe try 'npm search rhymebrain'
-20 error 404
-20 error 404 Note that you can also install from a
-20 error 404 tarball, folder, or http url, or git url.
-21 error System Windows_NT 6.1.7601
-22 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "owner" "add" "q-state"
-23 error cwd c:\projects\node\node-rhymebrain\node-rhymebrain
-24 error node -v v0.10.25
-25 error npm -v 1.3.24
-26 error code E404
-27 verbose exit [ 1, true ]
+1 verbose cli   'publish' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . C:\Users\Adam\AppData\Roaming\npm-cache\3a52ce78-.lock
+10 verbose tar pack [ 'C:\\Users\\Adam\\AppData\\Local\\Temp\\npm-6380-P6BV3B6_\\1395776743160-0.1395854048896581\\tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+12 verbose folder .
+13 info prepublish node-rhymebrain@0.0.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\Adam\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile dd59cac0-43160-0-1395854048896581-tmp-tgz tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+17 verbose lock tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz C:\Users\Adam\AppData\Roaming\npm-cache\dd59cac0-43160-0-1395854048896581-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile dd59cac0-43160-0-1395854048896581-tmp-tgz tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+21 silly lockFile dd59cac0-43160-0-1395854048896581-tmp-tgz tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+22 verbose tar unpack C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+23 silly lockFile 686bfad8-43160-0-1395854048896581-package tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package
+24 verbose lock tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package C:\Users\Adam\AppData\Roaming\npm-cache\686bfad8-43160-0-1395854048896581-package.lock
+25 silly lockFile dd59cac0-43160-0-1395854048896581-tmp-tgz tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+26 verbose lock tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz C:\Users\Adam\AppData\Roaming\npm-cache\dd59cac0-43160-0-1395854048896581-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry lib/index.js
+35 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+36 silly gunzTarPerm extractEntry spec/getRhymes-spec.js
+37 silly gunzTarPerm modified mode [ 'spec/getRhymes-spec.js', 438, 420 ]
+38 silly lockFile 686bfad8-43160-0-1395854048896581-package tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package
+39 silly lockFile 686bfad8-43160-0-1395854048896581-package tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package
+40 silly lockFile dd59cac0-43160-0-1395854048896581-tmp-tgz tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+41 silly lockFile dd59cac0-43160-0-1395854048896581-tmp-tgz tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\tmp.tgz
+42 verbose tar pack [ 'C:\\Users\\Adam\\AppData\\Roaming\\npm-cache\\node-rhymebrain\\0.0.1\\package.tgz',
+42 verbose tar pack   'C:\\Users\\Adam\\AppData\\Local\\Temp\\npm-6380-P6BV3B6_\\1395776743160-0.1395854048896581\\package' ]
+43 verbose tarball C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+44 verbose folder C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package
+45 silly lockFile 686bfad8-43160-0-1395854048896581-package tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package
+46 verbose lock tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package C:\Users\Adam\AppData\Roaming\npm-cache\686bfad8-43160-0-1395854048896581-package.lock
+47 silly lockFile 368db742-ode-rhymebrain-0-0-1-package-tgz tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+48 verbose lock tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz C:\Users\Adam\AppData\Roaming\npm-cache\368db742-ode-rhymebrain-0-0-1-package-tgz.lock
+49 silly lockFile 686bfad8-43160-0-1395854048896581-package tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package
+50 silly lockFile 686bfad8-43160-0-1395854048896581-package tar://C:\Users\Adam\AppData\Local\Temp\npm-6380-P6BV3B6_\1395776743160-0.1395854048896581\package
+51 silly lockFile 368db742-ode-rhymebrain-0-0-1-package-tgz tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+52 silly lockFile 368db742-ode-rhymebrain-0-0-1-package-tgz tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+53 silly lockFile c1d6d12f-he-node-rhymebrain-0-0-1-package C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package
+54 verbose lock C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package C:\Users\Adam\AppData\Roaming\npm-cache\c1d6d12f-he-node-rhymebrain-0-0-1-package.lock
+55 silly lockFile c1d6d12f-he-node-rhymebrain-0-0-1-package C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package
+56 silly lockFile c1d6d12f-he-node-rhymebrain-0-0-1-package C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package
+57 verbose tar unpack C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+58 silly lockFile f7d06f8f-he-node-rhymebrain-0-0-1-package tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package
+59 verbose lock tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package C:\Users\Adam\AppData\Roaming\npm-cache\f7d06f8f-he-node-rhymebrain-0-0-1-package.lock
+60 silly lockFile 368db742-ode-rhymebrain-0-0-1-package-tgz tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+61 verbose lock tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz C:\Users\Adam\AppData\Roaming\npm-cache\368db742-ode-rhymebrain-0-0-1-package-tgz.lock
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 silly gunzTarPerm extractEntry package.json
+64 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+65 silly gunzTarPerm extractEntry .npmignore
+66 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+69 silly gunzTarPerm extractEntry lib/index.js
+70 silly gunzTarPerm modified mode [ 'lib/index.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry spec/getRhymes-spec.js
+72 silly gunzTarPerm modified mode [ 'spec/getRhymes-spec.js', 438, 420 ]
+73 silly lockFile f7d06f8f-he-node-rhymebrain-0-0-1-package tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package
+74 silly lockFile f7d06f8f-he-node-rhymebrain-0-0-1-package tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package
+75 silly lockFile 368db742-ode-rhymebrain-0-0-1-package-tgz tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+76 silly lockFile 368db742-ode-rhymebrain-0-0-1-package-tgz tar://C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+77 verbose chmod C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz 644
+78 silly chown skipping for windows C:\Users\Adam\AppData\Roaming\npm-cache\node-rhymebrain\0.0.1\package.tgz
+79 silly lockFile 3a52ce78- .
+80 silly lockFile 3a52ce78- .
+81 silly publish { name: 'node-rhymebrain',
+81 silly publish   version: '0.0.1',
+81 silly publish   description: 'node.js interface to rhymebrain',
+81 silly publish   main: 'lib/index.js',
+81 silly publish   devDependencies: { 'jasmine-node': 'latest' },
+81 silly publish   scripts: { test: 'jasmine-node spec --color --verbose' },
+81 silly publish   repository:
+81 silly publish    { type: 'git',
+81 silly publish      url: 'https://github.com/q-state/node-rhymebrain' },
+81 silly publish   keywords: [ 'npm', 'module', 'rhymebrain' ],
+81 silly publish   author: { name: 'Adam Barker' },
+81 silly publish   license: 'MIT',
+81 silly publish   bugs: { url: 'https://github.com/q-state/node-rhymebrain/issues' },
+81 silly publish   homepage: 'https://github.com/q-state/node-rhymebrain',
+81 silly publish   dependencies:
+81 silly publish    { 'node-jpath': '~2.1.0',
+81 silly publish      url: '~0.7.9',
+81 silly publish      request: '~2.34.0',
+81 silly publish      q: '~1.0.1' },
+81 silly publish   readme: 'node-rhymebrain\r\n===============\r\n\r\nnode js interface to rhymebrain.com\r\n\r\nUsage:\r\n\r\n<pre><code>var rb = require("node-rhymebrain");\r\n\r\nrb\r\n  .getRhymes(\'train\', 10)\r\n  .then(function (result) {\r\n    // do something with the data\r\n  })\r\n  .done();\r\n</code></pre>\r\n',
+81 silly publish   readmeFilename: 'README.md',
+81 silly publish   _id: 'node-rhymebrain@0.0.1',
+81 silly publish   dist: { shasum: '13371d7dd92639b2105861a0f531099a6fe1d2db' },
+81 silly publish   _from: '.' }
+82 verbose url raw node-rhymebrain
+83 verbose url resolving [ 'https://registry.npmjs.org/', './node-rhymebrain' ]
+84 verbose url resolved https://registry.npmjs.org/node-rhymebrain
+85 info trying registry request attempt 1 at 19:45:43
+86 http PUT https://registry.npmjs.org/node-rhymebrain
+87 http 403 https://registry.npmjs.org/node-rhymebrain
+88 error publish Failed PUT 403
+89 error Error: forbidden cannot modify pre-existing version: 0.0.1
+89 error old={"name":"node-rhymebrain","version":"0.0.1","description":"node.js interface to rhymebrain","main":"index.js","devDependencies":{"jasmine-node":"latest"},"scripts":{"test":"jasmine-node spec --color --verbose"},"repository":{"type":"git","url":"https://github.com/q-state/node-rhymebrain"},"keywords":["npm","module","rhymebrain"],"author":{"name":"Adam Barker"},"license":"MIT","bugs":{"url":"https://github.com/q-state/node-rhymebrain/issues"},"homepage":"https://github.com/q-state/node-rhymebrain","_id":"node-rhymebrain@0.0.1","dist":{"shasum":"d9c3de470a85fd7680ec4a92ef600b9cbe0bbe6c","tarball":"http://registry.npmjs.org/node-rhymebrain/-/node-rhymebrain-0.0.1.tgz"},"_from":".","_npmVersion":"1.3.24","_npmUser":{"name":"q-state","email":"npmjs@q-state.co.uk"},"maintainers":[{"name":"q-state","email":"npmjs@q-state.co.uk"}]}
+89 error new={"name":"node-rhymebrain","version":"0.0.1","description":"node.js interface to rhymebrain","main":"lib/index.js","devDependencies":{"jasmine-node":"latest"},"scripts":{"test":"jasmine-node spec --color --verbose"},"repository":{"type":"git","url":"https://github.com/q-state/node-rhymebrain"},"keywords":["npm","module","rhymebrain"],"author":{"name":"Adam Barker"},"license":"MIT","bugs":{"url":"https://github.com/q-state/node-rhymebrain/issues"},"homepage":"https://github.com/q-state/node-rhymebrain","dependencies":{"node-jpath":"~2.1.0","url":"~0.7.9","request":"~2.34.0","q":"~1.0.1"},"readme":"node-rhymebrain\u000d\u000a===============\u000d\u000a\u000d\u000anode js interface to rhymebrain.com\u000d\u000a\u000d\u000aUsage:\u000d\u000a\u000d\u000a<pre><code>var rb = require(\"node-rhymebrain\");\u000d\u000a\u000d\u000arb\u000d\u000a  .getRhymes('train', 10)\u000d\u000a  .then(function (result) {\u000d\u000a    // do something with the data\u000d\u000a  })\u000d\u000a  .done();\u000d\u000a</code></pre>\u000d\u000a","readmeFilename":"README.md","_id":"node-rhymebrain@0.0.1","dist":{"shasum":"13371d7dd92639b2105861a0f531099a6fe1d2db","tarball":"http://registry.npmjs.org/node-rhymebrain/-/node-rhymebrain-0.0.1.tgz"},"_from":".","_npmVersion":"1.4.3","_npmUser":{"name":"q-state","email":"npmjs@q-state.co.uk"},"maintainers":[{"name":"q-state","email":"npmjs@q-state.co.uk"}]}: node-rhymebrain
+89 error     at RegClient.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\request.js:237:14)
+89 error     at Request.self.callback (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:123:22)
+89 error     at Request.EventEmitter.emit (events.js:98:17)
+89 error     at Request.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:893:14)
+89 error     at Request.EventEmitter.emit (events.js:117:20)
+89 error     at IncomingMessage.<anonymous> (c:\Program Files\nodejs\node_modules\npm\node_modules\request\request.js:844:12)
+89 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+89 error     at _stream_readable.js:920:16
+89 error     at process._tickCallback (node.js:415:13)
+90 error If you need help, you may report this *entire* log,
+90 error including the npm and node versions, at:
+90 error     <http://github.com/npm/npm/issues>
+91 error System Windows_NT 6.2.9200
+92 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+93 error cwd x:\node\node-rhymebrain
+94 error node -v v0.10.26
+95 error npm -v 1.4.3
+96 verbose exit [ 1, true ]
