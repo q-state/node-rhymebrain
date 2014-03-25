@@ -1,0 +1,172 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'adduser' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose adduser before first PUT { name: 'q-state',
+4 verbose adduser   salt: 'XXXXX',
+4 verbose adduser   password_sha: 'XXXXX',
+4 verbose adduser   email: 'npm@q-state.co.uk',
+4 verbose adduser   _id: 'org.couchdb.user:q-state',
+4 verbose adduser   type: 'user',
+4 verbose adduser   roles: [],
+4 verbose adduser   date: '2014-03-25T13:02:36.499Z' }
+5 verbose url raw /-/user/org.couchdb.user:q-state
+6 verbose url resolving [ 'https://registry.npmjs.org/',
+6 verbose url resolving   './-/user/org.couchdb.user:q-state' ]
+7 verbose url resolved https://registry.npmjs.org/-/user/org.couchdb.user:q-state
+8 info trying registry request attempt 1 at 13:02:36
+9 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:q-state
+10 http 503 https://registry.npmjs.org/-/user/org.couchdb.user:q-state
+11 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+11 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+11 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+11 verbose bad json <html>
+11 verbose bad json   <head>
+11 verbose bad json     <title>503 Backend is unhealthy</title>
+11 verbose bad json   </head>
+11 verbose bad json   <body>
+11 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
+11 verbose bad json     <p>Backend is unhealthy</p>
+11 verbose bad json     <h3>Guru Meditation:</h3>
+11 verbose bad json     <p>XID: 784315137</p>
+11 verbose bad json     <hr>
+11 verbose bad json     <p>Varnish cache server</p>
+11 verbose bad json   </body>
+11 verbose bad json </html>
+12 error registry error parsing json
+13 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+13 info retry
+13 info retry <?xml version="1.0" encoding="utf-8"?>
+13 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+13 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+13 info retry <html>
+13 info retry   <head>
+13 info retry     <title>503 Backend is unhealthy</title>
+13 info retry   </head>
+13 info retry   <body>
+13 info retry     <h1>Error 503 Backend is unhealthy</h1>
+13 info retry     <p>Backend is unhealthy</p>
+13 info retry     <h3>Guru Meditation:</h3>
+13 info retry     <p>XID: 784315137</p>
+13 info retry     <hr>
+13 info retry     <p>Varnish cache server</p>
+13 info retry   </body>
+13 info retry </html>
+14 info trying registry request attempt 2 at 13:02:47
+15 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:q-state
+16 http 503 https://registry.npmjs.org/-/user/org.couchdb.user:q-state
+17 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+17 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+17 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+17 verbose bad json <html>
+17 verbose bad json   <head>
+17 verbose bad json     <title>503 Backend is unhealthy</title>
+17 verbose bad json   </head>
+17 verbose bad json   <body>
+17 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
+17 verbose bad json     <p>Backend is unhealthy</p>
+17 verbose bad json     <h3>Guru Meditation:</h3>
+17 verbose bad json     <p>XID: 185296918</p>
+17 verbose bad json     <hr>
+17 verbose bad json     <p>Varnish cache server</p>
+17 verbose bad json   </body>
+17 verbose bad json </html>
+18 error registry error parsing json
+19 info retry will retry, error on last attempt: SyntaxError: Unexpected token <
+19 info retry
+19 info retry <?xml version="1.0" encoding="utf-8"?>
+19 info retry <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+19 info retry  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+19 info retry <html>
+19 info retry   <head>
+19 info retry     <title>503 Backend is unhealthy</title>
+19 info retry   </head>
+19 info retry   <body>
+19 info retry     <h1>Error 503 Backend is unhealthy</h1>
+19 info retry     <p>Backend is unhealthy</p>
+19 info retry     <h3>Guru Meditation:</h3>
+19 info retry     <p>XID: 185296918</p>
+19 info retry     <hr>
+19 info retry     <p>Varnish cache server</p>
+19 info retry   </body>
+19 info retry </html>
+20 info trying registry request attempt 3 at 13:03:49
+21 http PUT https://registry.npmjs.org/-/user/org.couchdb.user:q-state
+22 http 503 https://registry.npmjs.org/-/user/org.couchdb.user:q-state
+23 verbose bad json <?xml version="1.0" encoding="utf-8"?>
+23 verbose bad json <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+23 verbose bad json  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+23 verbose bad json <html>
+23 verbose bad json   <head>
+23 verbose bad json     <title>503 Backend is unhealthy</title>
+23 verbose bad json   </head>
+23 verbose bad json   <body>
+23 verbose bad json     <h1>Error 503 Backend is unhealthy</h1>
+23 verbose bad json     <p>Backend is unhealthy</p>
+23 verbose bad json     <h3>Guru Meditation:</h3>
+23 verbose bad json     <p>XID: 784459170</p>
+23 verbose bad json     <hr>
+23 verbose bad json     <p>Varnish cache server</p>
+23 verbose bad json   </body>
+23 verbose bad json </html>
+24 error registry error parsing json
+25 verbose adduser back [ [SyntaxError: Unexpected token <
+25 verbose adduser
+25 verbose adduser   <?xml version="1.0" encoding="utf-8"?>
+25 verbose adduser   <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+25 verbose adduser    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+25 verbose adduser   <html>
+25 verbose adduser     <head>
+25 verbose adduser       <title>503 Backend is unhealthy</title>
+25 verbose adduser     </head>
+25 verbose adduser     <body>
+25 verbose adduser       <h1>Error 503 Backend is unhealthy</h1>
+25 verbose adduser       <p>Backend is unhealthy</p>
+25 verbose adduser       <h3>Guru Meditation:</h3>
+25 verbose adduser       <p>XID: 784459170</p>
+25 verbose adduser       <hr>
+25 verbose adduser       <p>Varnish cache server</p>
+25 verbose adduser     </body>
+25 verbose adduser   </html>
+25 verbose adduser   ],
+25 verbose adduser   null,
+25 verbose adduser   '\n<?xml version="1.0" encoding="utf-8"?>\n<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"\n "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">\n<html>\n  <head>\n    <title>503 Backend is unhealthy</title>\n  </head>\n  <body>\n    <h1>Error 503 Backend is unhealthy</h1>\n    <p>Backend is unhealthy</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 784459170</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n' ]
+26 error SyntaxError: Unexpected token <
+26 error
+26 error <?xml version="1.0" encoding="utf-8"?>
+26 error <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+26 error  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+26 error <html>
+26 error   <head>
+26 error     <title>503 Backend is unhealthy</title>
+26 error   </head>
+26 error   <body>
+26 error     <h1>Error 503 Backend is unhealthy</h1>
+26 error     <p>Backend is unhealthy</p>
+26 error     <h3>Guru Meditation:</h3>
+26 error     <p>XID: 784459170</p>
+26 error     <hr>
+26 error     <p>Varnish cache server</p>
+26 error   </body>
+26 error </html>
+26 error
+26 error     at Object.parse (native)
+26 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:203:23)
+26 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+26 error     at Request.EventEmitter.emit (events.js:98:17)
+26 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+26 error     at Request.EventEmitter.emit (events.js:117:20)
+26 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+26 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+26 error     at _stream_readable.js:920:16
+26 error     at process._tickCallback (node.js:415:13)
+27 error If you need help, you may report this *entire* log,
+27 error including the npm and node versions, at:
+27 error     <http://github.com/npm/npm/issues>
+28 error System Darwin 13.1.0
+29 error command "node" "/usr/local/bin/npm" "adduser"
+30 error cwd /Users/Adam/Documents/Node/node-rhymebrain
+31 error node -v v0.10.26
+32 error npm -v 1.4.3
+33 error type unexpected_token
+34 verbose exit [ 1, true ]
