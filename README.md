@@ -8,9 +8,11 @@ Usage:
 <pre><code>var rb = require("node-rhymebrain");
 
 rb
-  .getRhymes('train', 10)
+  // .getRhymes('word', syllables, maxResults);
+  // (Pass syllables > 0 to filter by number of syllables)
+  .getRhymes('train', 10)       
   .then(function (result) {
-    // do something with the data
+    console.log(result);
   })
   .done();
 </code></pre>
