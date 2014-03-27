@@ -58,7 +58,7 @@ rb
   .getPortmanteaus('cat', 10)       
   .then(function (result) {
     /*
-    	[
+	[
 	  {
             "source"      : "cat,attitude",
             "combined"    : "catttitude,cattitude"
@@ -68,7 +68,7 @@ rb
             "combined"    : "catttitudes,cattitudes"
           },
 	  ...
-    	]
+	]
     */
   })
   .done();
