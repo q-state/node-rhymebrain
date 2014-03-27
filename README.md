@@ -16,14 +16,14 @@ rb
   .then(function (result) {
     /*
     	[
-    		{
+	{
           "word"      : "brain",
           "freq"      : 24,
           "score"     : 300,
           "flags"     : "bc",
           "syllables" : "1"
         },
-    		{
+	{
           "word"      : "plain",
           "freq"      : 23,
           "score"     : 300,
@@ -42,13 +42,13 @@ rb
   .then(function (result) {
     /*
     	{
-        "word"        : "hello",
-        "pron"        : "HH AH0 L OW1",
-        "ipa"         : "h\u028c\u02c8lo\u028a\u032f",
-        "freq"        : 19,
-        "flags"       : "bc",
-        "syllables"   : "2"
-      }
+          "word"        : "hello",
+          "pron"        : "HH AH0 L OW1",
+          "ipa"         : "h\u028c\u02c8lo\u028a\u032f",
+          "freq"        : 19,
+          "flags"       : "bc",
+          "syllables"   : "2"
+        }
     */
   })
   .done();
@@ -59,15 +59,15 @@ rb
   .then(function (result) {
     /*
     	[
-    		{
-          "source"      : "cat,attitude",
-          "combined"    : "catttitude,cattitude"
-        },
-			  {
-          "source"      : "cat,attitudes",
-          "combined"    : "catttitudes,cattitudes"
-        },
-    		...
+	  {
+            "source"      : "cat,attitude",
+            "combined"    : "catttitude,cattitude"
+          },
+	  {
+            "source"      : "cat,attitudes",
+            "combined"    : "catttitudes,cattitudes"
+          },
+	  ...
     	]
     */
   })
